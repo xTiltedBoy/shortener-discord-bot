@@ -10,3 +10,5 @@ services:
     volumes:
       - /mnt/datos/shortener-discord-bot/:/shortener-discord-bot
     network_mode: "host"
+    environment:
+      - token
