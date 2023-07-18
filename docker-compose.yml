@@ -8,5 +8,5 @@ services:
       context: .
     restart: always 
     volumes:
-      - .:/shortener-discord-bot
+      - /mnt/datos/shortener-discord-bot/:/shortener-discord-bot
     network_mode: "host"
