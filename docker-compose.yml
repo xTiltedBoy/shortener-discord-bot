@@ -1,6 +1,7 @@
 version: "3.3"
 services:
   shortener-discord-bot:
+    image: "xtiltedboy/shortener-discord-bot"
     container_name: shortener-discord-bot
     pull_policy: build
     build: 
