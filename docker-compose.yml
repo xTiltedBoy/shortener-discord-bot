@@ -1,0 +1,9 @@
+version: "3.3"
+services:
+  greybot:
+    container_name: shortener-discord-bot
+    pull_policy: build
+    build: 
+      context: .
+    restart: always 
+    network_mode: "host"
