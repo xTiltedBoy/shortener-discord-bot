@@ -6,4 +6,6 @@ services:
     build: 
       context: .
     restart: always 
+    volumes:
+      - .:/shortener-discord-bot
     network_mode: "host"
